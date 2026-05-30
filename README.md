@@ -100,51 +100,39 @@ garage-knowledge/
 - **Ollama** (установить с [ollama.com](https://ollama.com))
 
 ### 1. Клонирование репозитория
-
 ```bash
 git clone https://github.com/isachenkoegor343-max/garage-knowledge.git
 cd garage-knowledge
+```
 
-2. Установка фронтенда
-bash
+### 2. Установка фронтенда
+```bash
 npm install
-3. Установка Python-зависимостей
-bash
+```
+
+### 3. Установка Python-зависимостей
+```bash
 pip install -r requirements.txt
-4. Скачивание LLM модели
-bash
+```
+
+### 4. Скачивание LLM модели
+```bash
 ollama pull llama3.2
-5. Индексация контента
-bash
+```
+
+### 5. Индексация контента
+```bash
 python index_docs.py
-6. Запуск API-сервера (терминал 1)
-bash
+```
+
+### 6. Запуск API-сервера (терминал 1)
+```bash
 python api_server.py
 Сервер запустится на http://127.0.0.1:8000.
+```
 
-7. Запуск сайта (терминал 2)
-bash
+### 7. Запуск сайта (терминал 2)
+```bash
 npm run docs:dev
 Сайт откроется на http://localhost:5173.
-
-Установка фронтенда
-bash
-npm install
-3. Установка Python-зависимостей
-bash
-pip install -r requirements.txt
-4. Скачивание LLM модели
-bash
-ollama pull llama3.2
-5. Индексация контента
-bash
-python index_docs.py
-6. Запуск API-сервера (терминал 1)
-bash
-python api_server.py
-Сервер запустится на http://127.0.0.1:8000.
-
-7. Запуск сайта (терминал 2)
-bash
-npm run docs:dev
-Сайт откроется на http://localhost:5173.
+```
