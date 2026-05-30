@@ -57,6 +57,7 @@
 ---
 
 ## 📂 Структура проекта
+```
 garage-knowledge/
 ├── .vitepress/
 │ ├── config.mts # Конфигурация VitePress
@@ -88,7 +89,7 @@ garage-knowledge/
 ├── requirements.txt # Python-зависимости
 ├── package.json # Node.js-зависимости
 └── .gitignore # Исключения для Git
-
+```
 ---
 
 ## 🚀 Быстрый старт
